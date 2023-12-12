@@ -4,3 +4,8 @@ spring:
         url: jdbc:mysql://localhost/vollmed_api
         username: root
         password: root
+
+#Retirada de Trace da requisição
+server:
+    error:
+            include-stacktrace: never
