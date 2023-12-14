@@ -9,3 +9,9 @@ spring:
 server:
     error:
             include-stacktrace: never
+
+#Secret
+api:
+    security:
+        token:
+            secret: ${JWT_SECRET:teste123}
